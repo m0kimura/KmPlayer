@@ -1,0 +1,12 @@
+KmPlayer  KEYWORD1
+
+begin     KEYWORD2
+volume    KEYWORD2
+play      KEYWORD2
+next      KEYWORD2
+pause     KEYWORD2
+reset     KEYWORD2
+stop      KEYWORD2
+normal    KEYWORD2
+ioplay    KEYWORD2
+silent    KEYWORD2
