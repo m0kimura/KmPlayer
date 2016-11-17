@@ -54,7 +54,7 @@ void KmPlayer::send(char cmd, unsigned int op){
 
   unsigned int sum = 0; int x;
 
-  for(int i=1; i<7; i++){sum+=(int)Buf[i];} sum=~sum+1;
+  for(int i=2; i<7; i++){sum+=(int)Buf[i];} sum=~sum+1;
 
   Buf[7]=(uint8_t)(sum>>8); Buf[8]=(uint8_t)sum;
 
